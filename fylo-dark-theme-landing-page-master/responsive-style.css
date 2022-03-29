@@ -1,0 +1,267 @@
+@media (max-width: 1344px ) {
+    .services {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .third-section {
+        width: 85%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .third-section h1 {
+        width: auto;
+        margin-top: 30px;
+
+    }
+
+    .testimonial-section {
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+    .testimonial-section::after {
+        position: absolute;
+        top: -15px;
+    }
+
+    .sign-up-section {
+        height: auto;
+    }
+
+    #btn2 {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 1160px) {
+
+    .services-1 {
+        width: 400px;
+        padding: 20px;
+
+    }
+
+    .testimonial-section {
+        gap: 10px;
+        width: 80%;
+    }
+    .testimonial-section::after {
+        display: none;
+    }
+
+    .footer-body {
+        width: 95%;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+
+    .footer-bottom {
+        font-size: small;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .testimonial-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+
+
+@media (max-width: 950px) {
+    .nav-menu ul {
+        text-align: center;
+    }
+
+
+    
+    .main-contender-1 {
+        width: 80%;
+        margin: 0px auto 30px;
+    }
+
+
+    .form {
+        width: auto;
+    }
+
+    .email {
+        width: 80%;
+    }
+
+    .services {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .illustration-image-2 {
+        width: 350px;
+    }
+
+    .testimonial-section {
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    .testimonial-card {
+        padding: 10px;
+    }
+
+    .sign-up-section {
+        width: 80%;
+
+    }
+
+    .ilustration-image-1 {
+        width: 350px;
+        height: auto;
+    }
+
+
+    .main-contender-1  p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    footer {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-body {
+        padding: 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    
+
+    #navMobile.true #nav-unlistM{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.97);
+        font-size: 23px;
+    }
+
+    #btn {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .logo-nav {
+        width: 100px;
+    }
+    
+
+    ul {
+        display: none;
+    }
+
+    .main-contender-1 p {
+       font-size: 14px;
+    }
+
+
+    .main-contender-1 h1 {
+        font-size: 1.55rem;
+        width: 85%;
+        margin: 0px auto 30px;
+    }
+
+    .third-section h1 {
+        font-size: 1.55rem;
+    }
+
+    .sign-up-section {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #btn2 {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+
+    .testimonial-card {
+        width: auto;
+    }
+
+    .testimonial-desc {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 600px ) {
+
+    #nav-menu {
+        display: none;
+     }
+
+     .nav-menu li{
+        width: 100%;
+        text-align: center;
+     }
+
+    #menu-btn {
+        display: block;
+    }
+
+
+    #navMobile.true #nav-unlistM{
+        overflow: hidden;
+        position: absolute;
+        padding: 10px 0px;
+        right: 0;
+        top: 80px;
+        background: rgba(0, 0, 0, 0.829);
+        display: block;
+        z-index: 1;
+        transition: 0.6s;
+        font-size: 1.5rem;
+
+    }
+
+    #nav-unlistM .nav-list-aM {
+        padding: 1rem 10px;
+        font-weight: 900;
+    }
+
+    #nav-unlistM .nav-listM  {
+        padding: 20px 0px ;
+    }
+
+    #nav-unlistM .nav-list-l2M {
+        padding: 20px 0px ;
+        
+    }
+    #header-bar {
+        justify-content: space-between;
+        margin: 0px 15px;
+    }
+
+}
